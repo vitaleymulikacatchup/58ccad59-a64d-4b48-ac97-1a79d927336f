@@ -55,8 +55,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6 ">
           <SplitAbout
             bulletPoints={[
-              { title: 'Tradition', description: 'Our recipes go back generations.', icon: 'Award' },
-              { title: 'Quality', description: 'We use only the finest ingredients.', icon: 'Star' },
+              { title: 'Tradition', description: 'Our recipes go back generations.', icon: Award },
+              { title: 'Quality', description: 'We use only the finest ingredients.', icon: Star },
             ]}
             imageSrc={assetMap.find(a => a.id === 'aboutImage')?.url ?? "/public/images/placeholder.webp"}
             className="bg-yellow-100"
