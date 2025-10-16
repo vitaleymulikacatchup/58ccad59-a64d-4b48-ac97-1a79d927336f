@@ -8,7 +8,13 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
 
-const assetMap = /* provided JSON array */;
+const assetMap = [
+  { "id": "heroImage", "url": "https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Colorful pink crust pizza with vegetables and herbs on a wooden platter. Perfect for food lovers." },
+  { "id": "aboutImage", "url": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Sophisticated luxury restaurant interior featuring elegant chandeliers and plush seating, perfect for fine dining." },
+  { "id": "featureImage", "url": "https://images.pexels.com/photos/5907901/pexels-photo-5907901.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Delicious cheesy pizza with toppings being served hot and fresh from the oven." },
+  { "id": "testimonialImage", "url": "https://images.pexels.com/photos/826349/pexels-photo-826349.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Woman enjoying remote work at a café, using a laptop and smartphone." },
+  { "id": "contactImage", "url": "https://images.pexels.com/photos/5953493/pexels-photo-5953493.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Chef in mask spreads toppings on pizza dough in a stylish modern kitchen." }
+];
 
 export default function Home() {
   return (
