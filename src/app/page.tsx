@@ -29,7 +29,7 @@ export default function Home() {
             { name: 'Home', id: 'home' },
             { name: 'Menu', id: 'menu' },
             { name: 'About', id: 'about' },
-            { name: 'Contact', id: 'contact' },
+            { name: 'Contact', id: 'contact' }
           ]}
           brandName="Pizzeria"
         />
@@ -42,7 +42,7 @@ export default function Home() {
             imageSrc={assetMap.find(a => a.id === 'heroImage')?.url ?? "/public/images/placeholder.webp"}
             buttons={[
               { text: 'View Menu', href: 'menu' },
-              { text: 'Contact Us', href: 'contact' },
+              { text: 'Contact Us', href: 'contact' }
             ]}
             className="bg-yellow-100"
             titleClassName="text-gray-900"
@@ -82,20 +82,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6 ">
           <TestimonialCardTwo
             testimonials={[
-              {
-                id: '1',
-                name: 'Maria Rossi',
-                role: 'Food Blogger',
-                testimonial: 'The best pizza in town! A true Italian experience.',
-                imageSrc: assetMap.find(a => a.id === 'testimonialImage')?.url ?? "/public/images/placeholder.webp",
-              },
-              {
-                id: '2',
-                name: 'John Doe',
-                role: 'Regular Customer',
-                testimonial: 'Amazing flavors and a cozy atmosphere.',
-                icon: 'Quote',
-              },
+              { id: '1', name: 'Maria Rossi', role: 'Food Blogger', testimonial: 'The best pizza in town! A true Italian experience.', imageSrc: assetMap.find(a => a.id === 'testimonialImage')?.url ?? "/public/images/placeholder.webp" },
+              { id: '2', name: 'John Doe', role: 'Regular Customer', testimonial: 'Amazing flavors and a cozy atmosphere.', icon: 'Quote' },
             ]}
             className="bg-yellow-100"
             nameClassName="text-gray-900"
